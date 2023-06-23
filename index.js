@@ -32,7 +32,7 @@ function padStart(targetLength, padString, input) {
         return padString.slice(0, targetLength) + String(input);
     }
 }
-function randomColorFromString(input, schemaOptions) {
+function randomColorFromString(input, schemaOptions = []) {
     const hashValue = hashCodeFromString(input);
     if (schemaOptions.length > 0) {
         const colorRange = schemaOptions.length;
@@ -48,9 +48,7 @@ function randomColorFromString(input, schemaOptions) {
         return color;
     }
 }
-function generateColorFromString(input, schemaOptions = []) {
+function generateColorFromString(input, schemaOptions) {
     return randomColorFromString(input, schemaOptions);
 }
 exports.generateColorFromString = generateColorFromString;
-console.log(generateColorFromString('foo', ['red', 'green', 'teal', 'yellow']));
-console.log(generateColorFromString('name', ['red', 'green', 'teal', 'yellow']));

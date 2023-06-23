@@ -30,7 +30,7 @@ function padStart(targetLength: number, padString: string, input: string) {
   }
 }
 
-function randomColorFromString(input: string, schemaOptions: Array<string>) {
+function randomColorFromString(input: string, schemaOptions: Array<string> = []) {
   const hashValue = hashCodeFromString(input)
   if (schemaOptions.length > 0) {
     const colorRange = schemaOptions.length
@@ -46,6 +46,6 @@ function randomColorFromString(input: string, schemaOptions: Array<string>) {
   }
 }
 
-export function generateColorFromString(input: string, schemaOptions: Array<string> = []) {
+export function generateColorFromString(input: string, schemaOptions?: Array<string>) {
   return randomColorFromString(input, schemaOptions)
 }
