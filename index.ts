@@ -16,7 +16,6 @@ function repeat(input: string, count: number) {
   return input
 }
 
-
 function padStart(targetLength: number, padString: string, input: string) {
   targetLength = targetLength >> 0
   if (input.length > targetLength) {
