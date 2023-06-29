@@ -12,10 +12,11 @@ npm install string-to-color-react
 ```bash
 yarn add string-to-color-react
 ```
-
 ## Demo
 
-To do
+Link: https://demo-string-to-color-react-bvecj2wl7-lukke-dev.vercel.app/
+
+![Alt text](/assets/images/demo-dark.png?raw=true "Demo")
 
 ## Usage
 
