@@ -16,7 +16,7 @@ yarn add string-to-color-react
 
 Link: https://demo-string-to-color-react-bvecj2wl7-lukke-dev.vercel.app/
 
-![Alt text](/assets/images/demo-dark.png?raw=true "Demo")
+![Alt text](https://i.ibb.co/7Y776SJ/Screenshot-from-2023-06-29-14-29-20.png "Demo")
 
 ## Usage
 
